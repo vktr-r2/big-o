@@ -57,19 +57,23 @@ NOTES
 
 ** So Big O is less about how long, and more about how many (operations)
   => Different computers have different computing speeds, so time may vary, but the number of operations to reach upper bound stays constant
+  => We don’t measure the speed of an algorithm in seconds (or minutes!). We measure the rate of growth of an algorithm in the number of operations it takes to complete.
 
 - Ultimately Big 0 answers whether an algorithm can scale efficiently
 
 
 Efficient
 O(1): Constant time
-O(log(N)): Logarithmic time
-O(N): Linear time
+O(log(n)): Logarithmic time
+O(n): Linear time
 
 Less Efficient
 O(Nlog(N)): Linear logarithmic time
 
 Inefficient
-O(N2): Quadratic time
-O(2N): Exponential time
+O(n^2): Quadratic time
+O(n^3):	Cubic time
+O(2^n): Exponential time
+O(!n): Factorial time
+
 """

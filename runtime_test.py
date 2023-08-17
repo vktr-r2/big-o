@@ -19,6 +19,7 @@ def measure_runtime(function, input_size):
   return end_time - start_time
 
 
+
 def measure_runtime_single_input(function, input):
   
   # capture start time in variable
@@ -32,6 +33,8 @@ def measure_runtime_single_input(function, input):
 
   # return the total run time
   return end_time - start_time
+
+
 
 
 """
@@ -56,4 +59,17 @@ NOTES
   => Different computers have different computing speeds, so time may vary, but the number of operations to reach upper bound stays constant
 
 - Ultimately Big 0 answers whether an algorithm can scale efficiently
+
+
+Efficient
+O(1): Constant time
+O(log(N)): Logarithmic time
+O(N): Linear time
+
+Less Efficient
+O(Nlog(N)): Linear logarithmic time
+
+Inefficient
+O(N2): Quadratic time
+O(2N): Exponential time
 """
